@@ -1,10 +1,7 @@
-﻿ Console.WriteLine("write a number");
-int num = Convert.ToInt32(Console.ReadLine());
-if (num % 2 == 0)
+﻿Console.WriteLine("wright a number");
+long num = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <= num; i++)
 {
-    Console.WriteLine("number is even");
-}
-else
-{
-    Console.WriteLine("number is odd");
+    double powerOfTwo = Math.Pow(2, i);
+    Console.WriteLine("powerOfTwo : " + powerOfTwo);
 }

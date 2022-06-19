@@ -1,9 +1,11 @@
-﻿Console.WriteLine("Write Number whose Harmonic value wants to know");
+﻿Console.WriteLine("write a number");
 int num = Convert.ToInt32(Console.ReadLine());
-double numOne = 1;
-for (int i = 2; i <= num; i++)
+if (num % 2 == 0)
 {
-    numOne = numOne + 1.0 / i;
+    Console.WriteLine("number is even");
 }
-Console.WriteLine("Harmonic value : " + numOne);
+else
+{
+    Console.WriteLine("number is odd");
+}
 

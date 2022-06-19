@@ -1,9 +1,11 @@
-﻿Console.WriteLine("Write the dividend number");
-int dividendNum = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Write the divisor number");
-int divisorNum = Convert.ToInt32(Console.ReadLine());
+﻿Console.WriteLine("Write two number");
+int num1 = Convert.ToInt32(Console.ReadLine());
+int num2 = Convert.ToInt32(Console.ReadLine());
 
-int quotient = dividendNum / divisorNum;
-Console.WriteLine("quotient : " + quotient);
-int remainder = dividendNum % divisorNum;
-Console.WriteLine("remainder : " + remainder);
+Console.WriteLine("num1 : " + num1);
+Console.WriteLine("num2 : " + num2);
+int num3 = num1;
+num1 = num2;
+num2 = num3;
+Console.WriteLine("after swapping num1 : " + num1);
+Console.WriteLine("after swapping num2 : " + num2);

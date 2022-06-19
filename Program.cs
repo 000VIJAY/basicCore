@@ -1,16 +1,24 @@
-﻿Console.WriteLine("write year : should be of four digit");
-int year = Convert.ToInt32(Console.ReadLine());
-int forLeapYear = year % 4;
-int forLeapCentury = year % 400;
-if (forLeapYear == 0)
+﻿Console.WriteLine("write the character");
+char word = Convert.ToChar(Console.ReadLine());
+
+switch (word)
 {
-    Console.WriteLine("year is leap year");
-}
-else if (forLeapCentury == 0)
-{
-    Console.WriteLine("year is leap year");
-}
-else
-{
-    Console.WriteLine("year is not a leap year");
+    case 'a':
+        Console.WriteLine("The alphabet is vowel");
+        break;
+    case 'e':
+        Console.WriteLine("The alphabet is vowel");
+        break;
+    case 'i':
+        Console.WriteLine("The alphabet is vowel");
+        break;
+    case 'o':
+        Console.WriteLine("The alphabet is vowel");
+        break;
+    case 'u':
+        Console.WriteLine("The alphabet is vowel");
+        break;
+    default:
+        Console.WriteLine("The alphabet is consonant");
+        break;
 }

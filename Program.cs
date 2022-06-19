@@ -1,4 +1,4 @@
-﻿Console.WriteLine("write a number");
+﻿ Console.WriteLine("write a number");
 int num = Convert.ToInt32(Console.ReadLine());
 if (num % 2 == 0)
 {
@@ -8,4 +8,3 @@ else
 {
     Console.WriteLine("number is odd");
 }
-

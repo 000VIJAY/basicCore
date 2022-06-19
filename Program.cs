@@ -1,7 +1,9 @@
-﻿Console.WriteLine("wright a number");
-long num = Convert.ToInt32(Console.ReadLine());
-for (int i = 1; i <= num; i++)
-{
-    double powerOfTwo = Math.Pow(2, i);
-    Console.WriteLine("powerOfTwo : " + powerOfTwo);
-}
+﻿Console.WriteLine("Write the dividend number");
+int dividendNum = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Write the divisor number");
+int divisorNum = Convert.ToInt32(Console.ReadLine());
+
+int quotient = dividendNum / divisorNum;
+Console.WriteLine("quotient : " + quotient);
+int remainder = dividendNum % divisorNum;
+Console.WriteLine("remainder : " + remainder);
